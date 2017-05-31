@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<body>
+  <div id="gallery">
+
+    <ul>
+      <li><img id="image1" class="image" src="http://lorempixel.com/100/50/sports/1" alt="#"></a></li>
+      <li><img id="image2" class="image" src="http://lorempixel.com/100/50/sports/2" alt="#"></a></li>
+      <li><img id="image3" class="image" src="http://lorempixel.com/100/50/sports/3" alt="#"></a></li>
+    </ul>
+
+    <img id="main-image" src="http://lorempixel.com/400/200/sports/1" alt="#">
+
+  </div>
+
+  <script language="javascript">
+    var images = document.getElementsByClassName('image');
+    var mainImage = document.getElementById('main-image');
+    [].forEach.call(images,function(img){
+      img.onmouseover = function(){
+          mainImage.src = img.src.replace('100', '400').replace('50', '200');
+       };
+    });
+  </script>
+</body>

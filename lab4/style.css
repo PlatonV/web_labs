@@ -1,0 +1,270 @@
+
+dy {
+	margin: 0;
+}
+
+.main ul{
+	position: fixed;
+	width: 100%;
+	height: 25px;
+	top:0px;
+	list-style-type: none;
+	font-size: 16px;
+	font-family: arial;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #3A003A;
+	z-index: 100;
+}
+
+.main li{
+	float: left;
+	font-color: white;
+	font-size:12px;
+}  
+
+.main li a{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 4px 25px;
+	text-decoration: none;
+}
+
+.main a:hover{
+	text-decoration: underline;
+}
+
+div.leftside{ 
+	position: absolute;
+	top:25px;
+	min-height: 1500px;
+	min-width: 900px;
+	/*background-color: pink;*/
+}
+
+.form-img{
+
+	position: absolute;
+	top: 0px;
+	left: -25px;
+
+
+}
+
+
+input[type=text] {
+
+	position: absolute;
+	top: 27px;
+	left: 290px ;
+	width: 500px;
+	height: 35px;
+
+	border: 1px solid grey;
+	border-radius: 1px;
+	font-size: 16px;
+	background-color: white;
+	background-position: 10px 10px; 
+	background-repeat: no-repeat;
+	padding: 7px 10px 7px 10px;
+
+}
+
+
+.button {
+	position: absolute;
+	top: 23px;
+	left: 810px ;
+	height: 51px;
+	background-color: #1E90FF;
+	border: none;
+	color: white;
+	padding: 7px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.sign {
+	position: absolute;
+	top: 35px;
+	left: 1070px ;
+	width: 34%;
+	height: 31px;
+
+	background-color: white;
+	border: solid  #3A003A;
+	color:  #3A003A;
+	padding: 7px 5px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 13px;
+	font-family: arial;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.sign:hover{
+	background-color: #3A003A;
+
+}
+
+.button:hover {background-color: #0000A0}
+
+.sign:active {
+	background-color: #0000A0;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+.button:active {
+	background-color: #0000A0;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+input[type=button]{
+	background-color: #4CAF50;
+
+	position: fixed;
+	top: 49px;
+	left: 700px ;
+
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.navbar ul{
+	position: absolute;
+	top: 120px;
+	width: 20%;
+	list-style-type: none;
+	font-size: 16px;
+	font-color: black;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.navbar li{
+	font-size:15px;
+	margin-top:10px;
+} 
+
+.navbar li a{
+	display: inline-block;
+	color: purple;
+	font-weight: bold;
+	text-align: center;
+	padding: 2px 18px;
+	text-decoration: none;
+}
+
+.navbar a:hover{
+	text-decoration: underline;
+}
+
+.bigpicture{
+	position: absolute;
+	left: 150px;
+	top: 120px;
+	max-height: 280px;
+	background-color: #eeeeee;
+}
+
+.bigimg{
+	float: left;
+	height: 100%;
+	margin-right: 30px;
+
+}
+
+.innerdiv {
+	display: none;
+}
+
+.stuff{
+	display: block;
+	clear: both;
+}
+
+.innerimg{
+	float:left;
+	margin-right: 30px;
+	margin-bottom:10px 
+}
+
+#title1 {
+	position: absolute;
+	left: 150px;
+	top: 580px;
+} 
+
+#picture1{
+	position: absolute;
+	left: 150px;
+	top: 480px;
+} 
+
+#title2 {
+	position: absolute;
+	left: 150px; 
+	top: 700px;
+} 
+
+#picture2{
+	position: absolute;
+	left: 150px;
+	top: 600px;
+} 
+
+
+#title3 {
+	position: absolute;
+	left: 150px;
+	top: 750px;
+} 
+
+#picture3{
+	position: absolute;
+	left: 150px;
+	top: 480px;
+} 
+
+#title4 {
+	position: absolute;
+	left: 150px;
+	top: 580px;
+} 
+
+#picture4{
+
+	position: absolute;
+	left: 150px;
+	top: 480px;
+} 
+
+#title5 {
+
+	position: absolute;
+	left: 150px;
+	top: 580px;
+} 
+
+#picture5{
+
+	position: absolute;
+	left: 150px;
+	top: 480px;
+} 
+
+

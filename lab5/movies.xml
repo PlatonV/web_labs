@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="movies.xslt"?>
+<movies>
+    <movie>
+        <title>Title1</title>
+        <actors>Actor1, Actor2</actors>
+        <genre>Action</genre>
+        <date>20.04.2017</date>
+        <duration>2:30</duration>
+    </movie>
+    <movie>
+        <title>Title2</title>
+        <actors>Actor2, Actor4</actors>
+        <genre>Comedy</genre>
+        <date>20.05.2017</date>
+        <duration>2:40</duration>
+    </movie>
+    <movie>
+        <title>Title3</title>
+        <actors>Actor3, Actor4</actors>
+        <genre>Action</genre>
+        <date>12.05.2017</date>
+        <duration>2:12</duration>
+    </movie>
+    <movie>
+        <title>Title4</title>
+        <actors>Actor5, Actor6</actors>
+        <genre>Drama</genre>
+        <date>02.03.2017</date>
+        <duration>2:31</duration>
+    </movie>
+</movies>
